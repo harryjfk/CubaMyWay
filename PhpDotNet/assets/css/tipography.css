@@ -1,0 +1,47 @@
+/* CSS Document */
+*{font-family:Arial; font-size:100%;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.tj{text-align:justify;}
+.fnt70p, div.error, .ok{font-size:70%;}
+.fnt80p{font-size:80%;}
+.fnt90p{font-size:90%;}
+.fnt120p{font-size:120%;}
+.fnt145p{font-size:145%;}
+.bntbold{font-weight:bold;}
+.tdn{text-decoration:none;}
+
+.clblanco, .menu ul li, .menu ul li a, .login h1{color:#FFF;}
+.clamarillo, .menu ul li:hover a{color:#F6CD94;}
+.txtnone, .menu ul li a, .options li > ul li a, .ctrlgroup .dpmenu li > a{text-decoration:none;}
+
+.options li > ul li a{color: #000;}
+fieldset legend{font-weight:bold;}
+fieldset legend, .options li > ul li a:hover, .rojooscuro{color: #6E0019;}
+
+.ctrlgroup .cfg
+{
+    font-size: 90%;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.ctrlgroup .dpmenu li a 
+{
+	color: #333333;
+	font-weight: normal;
+	white-space: nowrap;
+	font-size: 85%;
+}
+
+.ctrlgroup .dpmenu li > a:hover{color:#CC4036;}
+
+
+/*paginaciones*/
+.paginate{color:#FFFFFF; text-decoration:none;}
+.current{color:#FFFFFF; font-weight:bold; text-decoration:none;}
+.inactive{color:#999999;}
+/*fin paginaciones*/
+
+.rojo_resaltado{color: #F5130C; font-weight: bold;}

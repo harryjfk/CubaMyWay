@@ -1,0 +1,233 @@
+/* Estilos generales
+================================================== */
+
+a,p,h1,h2,h3,h4,h5,h6 {
+	font-family:arial;
+	}
+body { 
+	padding: 0.5em; 
+	background: url(images/fondogris.png) repeat-x;
+	}
+
+/* Estilos del #ejemplo
+================================================== */
+		
+h4.tuto {  
+	margin: 0; 
+	font-family:arial;
+	color:#fff;
+	font-weight:normal;
+	}
+h4.tuto a {
+	color:orange;
+	}
+#ejemplo {
+	margin:-12px 0 0 0;
+	}
+	
+/* Estilos de #todo
+================================================== */
+	
+#todo {
+	padding:3px 20px;
+	max-width:1024px;
+	min-width:200px;
+	margin: -15px auto;
+	}
+	
+/* Estilos de la cabecera
+================================================== */
+
+#logo {background:none;}
+#logo h1 {
+	font-family:Arial;
+	color:#ccc;
+	margin:20px 0 14px 0;
+	}
+#menu ul li a {
+	text-decoration:none;
+	color:#fff;
+	}
+#menu ul li a:hover {
+	color:#7099D5;
+	}
+#menu ul {
+	list-style:none;
+	padding:13px 0 13px 20px;;
+	background:-moz-linear-gradient(center top , #587BA0, #38577F 15px) repeat scroll 0 0 #38577F;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#587BA0), to(#38577F));
+	border-radius:7px;
+	}	
+#menu ul li {
+	display:inline;
+	padding:7px 20px;
+	color:#fff;
+	font-family:arial;
+	}
+.act {
+	font-weight:bold;
+	text-shadow:0 3px 1px #000;
+	}
+	
+/* Estilos del contenedor
+================================================== */	
+	
+
+#content {background:#fff;
+	border-radius:7px;
+	float:left;
+	}
+.column-left {
+	width:70%;
+	float:left;	
+	}	
+.column-right {
+	width:25%;
+	background: #f2f2f2;
+	float:right;
+	padding:5px 10px;
+	text-align:center;
+	}
+.column-left .sub-menu ul  {
+	padding:0px;
+	}
+
+/* Estilos del sub menú
+____________________________ */
+
+.sub-menu ul {
+	margin:7px 0 0 0;
+	}
+.sub-menu ul li {
+	display:inline;
+	background:-moz-linear-gradient(center top , #e1a513, #c57a04 15px) repeat scroll 0 0 #c57a04;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1a513), to(#c57a04));	
+	border-radius:7px;
+	padding:7px 20px;
+	color:#fff;
+	font-family:arial;
+	font-size:0.9em;
+	}	
+.sub-menu ul li a {
+	text-decoration:none;
+	color:#fff;
+	}
+.sub-menu ul li a:hover {
+	color:#000;
+	}
+.texto h2 {
+	color:#01527F;
+	font-size:1.3em;
+	}
+img.imagen-tuto {
+	float: left;
+	padding:0 10px 10px 0;
+	} 	
+.linea {
+	border-bottom: solid 1px #f2f2f2;
+	clear:both;
+	}	
+	
+/* Estilos del menú Pequeño
+____________________________ */	
+	
+.menuPeq ul {
+	padding: 0px;
+	}
+.menuPeq ul li{
+	display:block;
+	background:-moz-linear-gradient(center top , #587BA0, #38577F 15px) repeat scroll 0 0 #38577F;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#587BA0), to(#38577F));	
+	border-radius:7px;
+	padding:7px 20px;
+	color:#fff;
+	font-family:arial;
+	font-size:0.9em;
+	margin:0 0 2px 0;
+	}
+.menuPeq ul li a {
+	text-decoration:none;
+	color:#fff;
+	}	
+.menuPeq ul li a:hover {
+	text-decoration:none;
+	color:#7099D5;
+	}
+.menuPeq li.orange {
+	background:-moz-linear-gradient(center top , #e1a513, #c57a04 15px) repeat scroll 0 0 #c57a04;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e1a513), to(#c57a04));
+	}
+.menuPeq li.orange a {
+	color:#fff;
+	}
+.menuPeq li.orange a:hover {
+	color:#000;
+	}
+
+/* Estilos del menú Mediano
+____________________________ */
+
+.menuMed ul {
+	list-style:none;
+	padding:13px 0;
+	background:-moz-linear-gradient(center top , #587BA0, #38577F 15px) repeat scroll 0 0 #38577F;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#587BA0), to(#38577F));
+	border-radius:7px;
+	margin:1px 0;
+	text-align:center;
+	}	
+.menuMed ul li {
+	display:inline;
+	padding:7px 10px;
+	color:#fff;
+	font-family:arial;
+	font-size:inherit;
+	}
+.menuMed ul li a {
+	text-decoration:none;
+	color:#fff;
+	}
+.menuMed ul li a:hover {
+	color:#7099D5;
+	}
+
+/* Estilos del bloque secundario
+________________________________ */	
+
+.secundario {
+	background:#e0e0e0;
+	text-align:center;
+	float:left;
+	width:100%;
+	}	
+.secundario a {
+	color:#313131;
+	}
+.secundario a:hover {
+	color:#7099D5;
+	}	
+	
+/* Estilos del pie de página
+================================================== */	
+
+#footer{background:#313131;
+	font-family:Arial;
+	font-size:0.8em;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+	clear:both;
+	border-radius:0 0 7px 7px;
+	}
+
+	
+
+
+	
+	
+	
+	
+
+		
+	
+	

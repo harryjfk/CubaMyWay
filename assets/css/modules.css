@@ -1,0 +1,45 @@
+.tpolo {text-align: left; }
+.tpolo h1{font-size: 18px; font-weight: 300; margin-bottom: 4px;}
+.tpolo label{ font-size: 16px;width: 42%;margin: 1px; }
+.tpolo input{ width: 42%; }
+.bpolo { text-align: center; font-weight: bold; height: 70%; border: #212121 solid 1px; margin: 5px;}
+.bpolo .bpolog { width: 70%; height: 90%;
+    float: left;}
+ .bpolo .bpolog ul
+{  height: 100%; overflow: auto; width:100%; }
+.bpolo .btimages
+{
+ width: 30%;
+    float: right;
+    word-break: break-all;
+    height: 100%;
+    overflow: auto;
+}
+
+.bpolo ul li{display: inline-block; }
+.bpolo ul li img
+{ width: 128px; height: 128px;}
+.btpolo { text-align: center;}
+
+.svgMapOverlay {
+
+    position: absolute;;
+
+    z-index: 10;
+}
+.polopreview
+{
+    position: absolute;
+    z-index: 5;
+    top: 34%;
+    left: 78%;
+    height: 30%;
+    width: 18%;
+    text-align: center;
+    overflow: auto;
+    background-color: white;
+
+}
+.polopreview h1 {font-weight: bold; font-size: 15px;}
+.polopreview ul li{display: inline-block;}
+.polopreview ul li img {width: 92px;}

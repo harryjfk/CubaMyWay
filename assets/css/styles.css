@@ -1,0 +1,160 @@
+* {margin: 0;padding: 0;font: 12px "MS Sans Serif",sans-serif ; color: #ffa553}
+.cb {clear: both;}
+.oh {overflow: auto;}
+a{text-decoration: none;}
+.languages,.user {text-align: right;    margin: 1% 1% 0 0; float: right;}
+.languages li,.user li{ display: inline; }
+.user a {color: white;}
+.user a:hover {text-decoration: none;color: #ffa553}
+.languages li img{width: 20px;height: 20px;}
+.img { width: 100%;height: 20%;}
+.main{margin: 2% 5% 2%  5%;height: 90%;border: #257ade solid 1px; box-shadow: 5px 5px 5px #999;position: static; background-color: white;}
+.main a {text-decoration: none;color: #ffa553;}
+.main .title {height: 5%;width: 100%;}
+.main .title p{font-size: 22px; text-align: center; margin-top:1%; width: 72%; float: left;  }
+.main .title ul{  padding-top:1%;height: 100%;width: 90%;text-align: right;}
+.main .title ul li{list-style: none;display: inline-block;font-size: 14px;margin-left: 1%;}
+.main .menu li{list-style: none;display: inline-block;height:30px;margin:1% 1% 0 1%;text-align: center;width:15%;padding:1% 0 0 0;border: #f5f5f5  solid 1px;}
+.main .menu li a {font-size: 15px;}
+.main .menu .selected{background: #257ADE;color:white; }
+.main .menu .selected a{color:white;}
+.main .menu li:hover , .main .menu li a:hover{background: #ffa553;color:white;border: #ffa553 solid 1px;}
+.main .body{position: relative;/*height: 89%;*/border: #d9d9d9 1px solid;margin: 0 0 0% 0; background: rgba(175, 4, 18, 0);}
+.main .login{border: #dbdbdb solid 1px;margin: 2% 20% 0 30%;box-shadow: 5px 5px 5px #999;width: 40%; font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif; ;}
+.main .login h1{font-size: 20px;color:#ffa553;text-align: center;margin: 2%;width: 100%;  }
+.main .login .loginp .textedit{margin: 2%;width: 100%; clear: both;}
+.main .login .loginp .textedit label{width: 25%;  display: inline-block;margin-left:2% ;font-size: 12px;}
+.main .login .loginp .textedit input{width: 60%;color: black}
+.main .login .loginp  .button{margin: 4%;text-align: center;}
+.main .login .loginp  .button input{width: 20%;height: 8%;}
+.main .body .frame{position: relative;height: 82%;border: #d9d9d9 1px solid;margin: 0 1% 0 1%;}
+.main .body .frame .options, .options {float: right;margin: 3px 3px 0 0 ;}
+.options .button{display: inline-block;padding: 5px;background-color: #696969;background: -moz-linear-gradient(center top , #696969, #212121);background: -webkit-linear-gradient(center top , #696969, #212121);background: -ms-linear-gradient(center top , #696969, #212121);background: -o-linear-gradient(center top , #696969, #212121);background: linear-gradient(center top , #696969, #212121);background-repeat: repeat-x;border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.options .button .btn:hover{background:#212121;}
+.options .button .dpmenu{display: none;}
+.options .button .dpmenu li{list-style: none; }
+.options .button .dpmenu li:hover{background:#212121;}
+.options .button .dpmenu li.divisor{height: 1px;margin: 9px 1px;overflow: hidden;background-color: #e5e5e5;border-bottom: 1px solid #fff;}
+.options .buttona{font-size: 14px;color: white;}
+.main .body .frame .searchbox{margin: 1%;}
+.main .body .frame .searchbox input{width: 30%;}
+.main .body .frame .searchbox button{padding: 5px;background-color: #212121;color: white;border: 0;}
+.main .body .frame .grid{margin: 0 1% 1% 1%;height: 80%;overflow: auto;}
+.main .body .frame .grid .tablelist{width: 100%;}
+.opaco_block{ background: url(images/opaca.png); /*width: 100%; height: 100%; position: fixed; top: 0; z-index: 150;/*padding-top:25%; padding-left: 45%*/}
+.main .body .frame .grid .theader{background-color: #212121;color: white;}
+.main .body .frame .grid .theader td{border: 1px #e5e5e5 solid;text-align: center;}
+.main .body fieldset,.fieldset{margin: 1%;height: 85%; border: 0}
+.fieldset .fielditem{width: 100%;padding: 5px;}
+.fieldset .fielditem label{display: inline-block;margin-left: 2px;width: 100%;}
+.btn-confirm{text-align: center;  border: 1px #e5e5e5 solid;background-color: white;color: #ffa553;padding: 5px;}
+.btn-confirm:hover{background-color: #257ADE;}
+.updateprofile{height: 75%;}
+.main .body fieldset .modules{height: 100%;}
+.main .body fieldset .modules fieldset{height: 95%;}
+.main .footer{text-align:center ;font-size: 12px;color: #ffa553;font-weight: bold; }
+.sh-error{color: #F5130C; font-size: 80%; font-weight: bold; text-decoration: #ffffff solid remove-all;}
+.sh-ok{color:white; font-size: 80%;}
+.notif{background: #212121;background: #212121 -ms-linear-gradient(#696969, #212121);background: #212121 -moz-linear-gradient(#696969, #212121);background: #212121 -webkit-linear-gradient(#696969, #212121);background: #212121 linear-gradient(#696969, #212121);border: 1px solid #696969;color: #696969;}
+.ui-btn-corner-all{-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px;}
+.notif .btn-close{background:#ffffff;
+    -moz-background-size: 776px 18px;-o-background-size: 776px 18px;-webkit-background-size: 776px 18px;background-size: 776px 18px;height: 21px;width: 21px;color:#212121;border: 5px;}
+.ui-btn {cursor: pointer;display: block;margin: 0.5em 0;padding: 0;position: relative;text-align: center;font-size: 120%;color: #fff;}
+.ui-shadow {-moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3) ;-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3) ;box-shadow: 0px 1px 4px rgba(0,0,0,.3) ;}
+.error{color: red;font-size:12px;}
+.br5{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+
+.main .body .updatepanel{height: 62%; padding: 0 2%0 2%;}
+.main .body .information h1 {font-size: 24px;text-align: center; color:#257ade}
+.main .body .information p {font-size: 16px;text-align: justify;color: #ffa553;}
+
+
+.main .body .updatepanel .tours-menu {
+    width: 20%;float: left;
+    height: 100%;
+    text-align: center;
+}
+.main .body .updatepanel .tours-menu h1{font-size: 18px; font-weight: 500;}
+.main .body .updatepanel .tours-menu ul {height: 80%}
+.main .body .updatepanel .update-tours-list
+{text-align: center; overflow: auto;   border-top: 2px #01527F solid;  width: 99%;margin-top: 2px;}
+.main .body .updatepanel .update-tours-list li {list-style: none; }
+.main .body .updatepanel .mappanel { width: 100%; float: left;; }
+.profile {text-align: center;}
+.profile h1{font-size: 24px;margin-bottom: 2%}
+.profile .pictureitem { width: 125px; float:left;}
+.profile .pictureitem img { width: 100%;}
+.profile .pictureitem input {width: 100%;}
+.profile .info {width: 95%;}
+.profile .info .fielditem{float:left; width: 40%;margin: 1% 0 1% 0;}
+.profile .info .fielditem label {float: left; width: 25%}
+.popupwindow{
+    padding: 2%;
+    /* text-align: center; */ background: #ffffff; }
+.questions-body{ margin: 0 2% 0 2%; height: 93%;overflow: auto;}
+.questions-body ul{width: 100%;}
+.questions-body ul li{margin: 1%;clear: both; list-style: none; padding-bottom: 1%; height: 22%;overflow: hidden;}
+.questions-body ul li .question-head{ float: left; width: 85%; }
+.questions-body ul li .question-head img{ height: 94%; margin: 1%; float: left;}
+.questions-body ul li .question-head  a{ font-size: 20px; font-weight: 200;}
+
+.questions-body ul li .question-user{ text-align: right;word-break: break-all;}
+.questions-body ul li .question-user img{ margin-right: 1%;width: 52px; margin-top: 5px;}
+.questions-body ul li .question-user div{ margin-right:1%; font-size: 13px;padding-top: 1%;}
+.questions-body .questions-panel{ text-align: right; margin: 5px;}
+.questions-body .questions-panel div{ float: left;}
+.questions-body .questions-panel a {text-decoration: none; padding: 3px; font-size: 14px}
+.questions-body .commentview li{ height: auto}
+.questions-body .commentview li .question-head img{ height:42px; margin: 1%; float: left;}
+
+.msgpanel {margin: 1%; height: 80%;}
+.msgtab{width:15%; text-align: center;float: left; }
+.msgtab ul {list-style: none;}
+.msgtab ul li {padding: 1%}
+.msgtab ul .selected{background: #257ADE;color:white; }
+.msgtab ul .selected a{color:white;}
+
+.msgtab ul li:hover , .msgtab ul li a:hover{background: #ffa553;color:white;border: #ffa553 solid 1px;}
+.msgbody{ margin: 0 2% 0 2%; height: 93%;overflow: auto;}
+.msgbody ul li{margin: 1%;clear: both; list-style: none; padding-bottom: 1%; height: 6%;/*overflow: hidden;*/}
+.msgbody ul li  .msg-head{ float: left; width: 85%;padding: 1% }
+.msgbody ul li  .read{ font-size: 12px; }
+.msgbody ul li  .unread{ font-size: 14px; font-weight: bold}
+.msgbody ul li  .msg-user{ text-align: right;word-break: break-all;}
+.msgbody ul li  .msg-user div{ margin-right:1%; font-size: 13px;padding-top: 1%;}
+.msgbuttons {text-align: center;margin-bottom: 1%;}
+.msgbuttons li {display: inline-block; }
+.msgpanel .fielditem {float:left; width: 40%;}
+
+.createtrip {width: 100%;height:95% }
+.createtrip h1 {font-size: 16px;font-weight: bolder;margin-bottom:3%;}
+.createtrip .places {width: 50%;float:left;text-align: left;overflow: auto;}
+.createtrip ul li {margin: 1%; list-style: none; }
+.plac li  input {width: 20%}
+.svgMapOverlay {
+
+    position: absolute;;
+
+    z-index: 10;
+}
+.polopreview
+{
+    position: absolute;
+    z-index: 5;
+    top: 34%;
+    left: 78%;
+    height: 30%;
+    width: 18%;
+    text-align: center;
+    overflow: auto;
+    background-color: white;
+
+}
+.polopreview h1 {font-weight: bold; font-size: 15px;}
+.polopreview ul li{display: inline-block;}
+.polopreview ul li img {width: 92px;}
+.imgbanner {width:20%; float: left;}
+.imgbanner ul {list-style: none}
+.imgbanner ul img {width:48px}
+.li-button  {padding-top: 15px;}
+.li-button a{  font-weight: 700; font-size: 15px; }

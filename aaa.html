@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="/PhpDotNet/assets/js/jquery/jquery.js"></script>
+    <script src="/PhpDotNet/assets/js/list.js"></script>
+    <script src="/PhpDotNet/assets/js/resizer.js"></script>
+    <script src="/PhpDotNet/assets/js/events.js"></script>
+    <script src="/jquery.forwardevents.js"></script>
+
+</head>
+<body>
+<Div style="margin: 10%">
+ <div id="src"  class="src" style="height: 400px; width: 200px; background: #080808;" ></div>
+    <div  id="dest" class="dest" style="height: 400px; width: 200px; background: #0A246A;"></div>
+</Div>
+
+
+<script>
+    var t = null;
+    $(".src").bind("mouseup",function(e){
+
+        t =e;
+        alert(e);
+    })  ;
+    $('.dest').forwardevents( {directEventsTo:$('.src'),   enableMousemove: true} );
+   // dest.addEventListener('mousemove',aaaaa,true);
+  /*  var cr = new ClientControlResizer(src,dest);
+    cr.ResizeWidth =true;
+    cr.ResizeHeight =true;
+    cr.ResizeLeft = true;
+    cr.ResizeTop = true;
+    var ec = new ClientEventHandler(src,dest);
+   ec.Events.Add("onclick");
+ec.setActive(true);*/
+  //  function aaaaa(e)
+   // {
+     //   alert(e);
+       //alert("awwaa");
+   // }
+  /// src.onclickaaaa;
+</script>
+
+</body>
+</html>

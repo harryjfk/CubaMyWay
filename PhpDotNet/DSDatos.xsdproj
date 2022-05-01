@@ -1,0 +1,2 @@
+<Configuration><DataSetFileName>C:\xampp\htdocs\CubaMyWay\PhpDotNet\DSDatos.xsd</DataSetFileName><Connections>VisualWaysConnectionString (Settings)=C:\xampp\htdocs\CubaMyWay\PhpDotNet\DSDatos.settings
+</Connections><ConnectionTypes></ConnectionTypes><Code></Code><LengEdit></LengEdit><LengInt></LengInt><Include>0</Include><Language>PHP</Language><Name>VisualWays</Name></Configuration>

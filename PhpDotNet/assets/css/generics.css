@@ -1,0 +1,24 @@
+.br5
+{
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+}
+.br5-top
+{
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius-top:5px;
+}
+.powered
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+}

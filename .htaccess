@@ -1,0 +1,44 @@
+AddType application/x-httpd-php .html .htm
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^visualways\.com
+RewriteRule ^(.*)$ http://www.visualways.com/$1 [R=301,L]
+RewriteRule . - [E=no-gzip:1]
+
+#reglas para css y js
+#Rewriterule ^personas$ index.php?view=frmlist&module=persona [L]
+#Rewriterule ^persona/(.*)/([0-9]+)$ index.php?view=editar&module=persona&id=$2 [L]
+#reglas para PhpDotNet
+#Rewriterule ^login$ PhpDotNet/administration/login.php
+#Rewriterule ^register$ PhpDotNet/administration/register.php
+#Rewriterule ^admin/(.*)$ PhpDotNet/administration/index.php?path=$1
+#Rewriterule ^admin$ PhpDotNet/administration/index.php
+Rewriterule ^es/admin$ PhpDotNet/index.php?&lang=es
+Rewriterule ^en/admin$ PhpDotNet/index.php?&lang=en
+Rewriterule ^admin$ PhpDotNet/index.php?&lang=en
+Rewriterule ^register$ PhpDotNet/modules/user/register.php?&lang=en
+Rewriterule ^es/register$ PhpDotNet/modules/user/register.php?lang=es
+Rewriterule ^en/register$ PhpDotNet/modules/user/register.php?lang=en
+Rewriterule ^controller$ PhpDotNet/modules/controller.php
+Rewriterule ^controller/(.*)$ PhpDotNet/modules/controller.php?params=$1 [L]
+Rewriterule ^updlist/(.*)$ modules/TripTypes/updatelist.php?params=$1 [L]
+Rewriterule ^createtrip/(.*)$ modules/Trips/createdestrip.php?params=$1 [L]
+#reglas para lenguajes
+Rewriterule ^es$ index.php?lang=es
+Rewriterule ^en$ index.php?lang=en
+Rewriterule ^es/$ index.php?lang=es
+Rewriterule ^en/$ index.php?lang=en
+
+
+#reglas para PhpDotNet
+#reglas del sitio
+#Rewriterule ^productos/(.*)$ index.php?view=view&module=Productos&id=$1 [L]
+#Rewriterule ^categoria/(.*)$ index.php?view=view&module=Categoria&id=$1 [L]
+#Rewriterule ^search/(.*)$ modules/search.php?search=$1 [L]
+#Rewriterule ^xatem/(.*)$1/([0-9]+)$2 index.php?view=&module=persona&id=$2 [L]
+
+#Rewriterule ^xatem/(.*)$/([0-9]+)$ index.php?path=$1 [L]
+#Rewriterule ^admin$ PhpDotNet/administration/index.php
+
+#reglas del sitio

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document *//*grid*/
+
+.grid{
+background:none repeat scroll 0 0 #FFFFFF;
+/*border:1px solid #3B5A82;*/
+border:1px solid #6E0019;
+color:#27413E;
+}
+
+.grid .tablelist{
+ empty-cells:show;
+ table-layout:auto;
+ width:100%;
+ border-collapse:collapse;
+}
+
+
+.grid .tablelist td{
+/*border-color:#D0D7E5;*/
+border-color:#6E0019;
+border-style:none none solid solid;
+border-width:1px;
+padding:3px 4px;
+/*font-family:Tahoma;
+font-size:12px;*/
+font-size:90%;
+}
+
+.grid .tablelist tr td:first-child
+{ 
+  border-left:none;
+}
+
+.grid .tablelist td .link{color:#3B5A82;}
+.grid .tablelist td .link:hover{text-decoration:underline;}
+
+.grid .tablelist tr:hover
+{
+ background:url(images/sprite.gif) repeat-x scroll 0 -800px #F1C15F;
+}
+
+.grid .tablelist .theader{
+ background-color: #7987A8;
+ background: -moz-linear-gradient(center top , #DC4E44, #B32B21);
+ background: -webkit-linear-gradient(center top , #DC4E44, #B32B21);
+ background: -ms-linear-gradient(center top , #DC4E44, #B32B21);
+ background: -o-linear-gradient(center top , #DC4E44, #B32B21);
+ background: linear-gradient(center top , #DC4E44, #B32B21);	
+
+border-bottom:1px solid #6E0019;
+border-left:1px solid #6E0019;
+font-weight:normal;
+color:#fff;
+text-align:left;
+}
+
+.grid .tablelist .theader:first-child
+{ 
+  border-left:none;
+}
+
+.grid .tablelist .opciones{
+  color:#111111;
+  text-decoration:none;
+  text-align:center;
+}
+
+.grid .tablelist .opciones a{
+ color:#111111;
+}
+
+.grid .tablelist .opciones a:hover{
+ text-decoration:underline;
+}
+
+.grid .tablelist .paginador{
+
+ /*background:url(images/fcenter.png) repeat-x top !important;*/
+ 
+ background-color: #CC4036;
+ background: -moz-linear-gradient(center bottom , #DC4E44, #B32B21);
+ background: -webkit-linear-gradient(center bottom , #DC4E44, #B32B21);
+ background: -ms-linear-gradient(center bottom , #DC4E44, #B32B21);
+ background: -o-linear-gradient(center bottom , #DC4E44, #B32B21);
+ background: linear-gradient(center bottom , #DC4E44, #B32B21);
+ 
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #567DB0;
+line-height:15px;
+padding:1px 4px 2px;
+height:15px;
+}
+/*fin grid*/
+

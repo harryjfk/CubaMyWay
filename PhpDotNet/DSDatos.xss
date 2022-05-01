@@ -1,0 +1,3 @@
+<DiagramLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ex:showrelationlabel="False" ViewPortX="0" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout"><Shapes><Shape X="14" Y="2" Width="200" Height="200" AdapterExpanded="-1" DataTableExpanded="-1" ID="DesignTable:t_rol" SplitterPosition="105"/><Shape X="240" Y="10" Width="192" Height="232" AdapterExpanded="-1" DataTableExpanded="-1" ID="DesignTable:t_user" SplitterPosition="98"/></Shapes>
+	<Connectors/>
+</DiagramLayout>

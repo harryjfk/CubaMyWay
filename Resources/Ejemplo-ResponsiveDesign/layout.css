@@ -1,0 +1,56 @@
+/* #Media Queries
+================================================== */
+
+	/* Mayor de 960px (dispositivos y navegadores) */
+	@media only screen and (min-width: 959px) {
+		.menuPeq {visibility: hidden; display:none;}
+		.menuMed {visibility: hidden; display:none;}
+		.secundario {visibility: hidden; display:none;}
+		}
+
+	/* A partir de 960px (dispositivos y navegadores) */
+	@media only screen and (max-width: 958px) {
+		#menu ul li{padding:7px 5px;}
+		.menuPeq {visibility: hidden; display:none;}
+		.menuMed {visibility: hidden; display:none;}
+		.secundario {visibility: hidden; display:none;}
+		.line-left {border-left: solid 1px #fff;}
+		.column-right img {width:100%;}
+		.texto h2 {font-size:1.1em;}
+		.texto p {font-size:1em;}
+		img.imagen-tuto {width:12%;}	
+		}
+
+	/* Tamaño para tablet y móvil, vertical y horizontal (dispositivos y navegadores) */
+	@media only screen and  (max-width: 767px) {
+		#todo {padding:3px 10px;}
+		#menu {visibility: hidden; display:none;}
+		#menu ul li{padding:7px 10px;}
+		.menuPeq {visibility: hidden; display:none;}
+		.menuMed {visibility: visible; display:inline;}
+		.column-right {visibility: hidden; display:none;}
+		.column-right img {width:100%;}
+		.column-left {width:100%;}
+		.secundario {visibility: visible; display:inline;}
+		.sub-menu ul {margin:16px 0 0 0;}
+		.texto h2 {font-size:1.1em;}
+		img.imagen-tuto {width:12%;}	
+		}
+
+	/* Tamaño para tablet y móvil, vertical y horizontal (dispositivos y navegadores) */
+	@media only screen and  (max-width: 479px) {
+		#todo {padding:3px 0;}
+		#menu {visibility: hidden; display:none;}
+		.sub-menu {visibility: hidden; display:none;}
+		.menuPeq {visibility: visible; display:block;}
+		.menuMed {visibility: hidden; display:none;}
+		.column-right {visibility: hidden; display:none;}
+		img.imagen-tuto {visibility: hidden; display:none;}
+		.menuPeq ul li a {font-size:1.2em;}
+		.menuPeq ul li.act {font-size:1.2em;}
+		}
+	
+	/* Tamaño para tablet y móvil, vertical y horizontal (dispositivos y navegadores) */
+	@media only screen and (max-width: 304px) {
+		#todo h1 {font-size:1.5em;}
+    }

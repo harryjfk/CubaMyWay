@@ -1,0 +1,49 @@
+  <div class="">
+            <ul class="languages">
+
+                <?php
+                $_SESSION['ide'] ->import("includes.Common.Path");
+                $p = new TPath(ROOT_LANGS);
+                $f =  $p->Files();
+                for($i=0;$i<$f->Count();$i++)
+                {
+                    $filename = str_ireplace(".ini","", TPath::GetFileName($f->GetItem($i),false));
+                    if($filename!=="languages")
+                    {?>
+                        <li> <a href="<?php echo LIVESITE.$filename ?>"><img src="assets/css/images/<?php echo $_SESSION["languages"]->GetString(strtoupper($filename."_IMG") ,false); ?>"></a>
+                        </li>
+                    <?php
+
+                    }
+
+                }
+
+                ?>
+                <li>
+
+                </li>
+            </ul>
+            <ul class="user">
+                <?php if (isset($_SESSION["authuser"])) {
+                    ?>
+
+                    <li><a class="updt none" href="<?php echo LIVESITE . 'controller/'.\UrlCrypt\UrlCrypt::encrypt('op=module&module=user&view=profile&lang=' . $_SESSION['languages']->GetLang().'&otherpages=Messages:index');?>"><?php echo   $_SESSION["authuser"]['name'];?>
+                            <a></li>
+                    <li>
+                        <a class="updt none" href="<?php echo LIVESITE . 'controller/'.\UrlCrypt\UrlCrypt::encrypt('op=logout&redirect=' . LIVESITE .'&lang='. $_SESSION['languages']->GetLang() . ''); ?>"><?php echo $_SESSION['languages']->GetString('LOGOUT'); ?>
+                            <a></li>
+
+                <?php }
+                else
+                { ?>
+
+                    <li><a class="updt none" href="<?php echo LIVESITE . 'controller/'.\UrlCrypt\UrlCrypt::encrypt('op=module&module=user&view=login&url='.LIVESITE.'&lang=' . $_SESSION['languages']->GetLang() . ''); ?>"><?php echo $_SESSION['languages']->GetString('LOGIN_TITLE'); ?>
+                            <a></li>
+                    <li>
+                        <a class="updt none" href="<?php echo LIVESITE . 'controller/'.\UrlCrypt\UrlCrypt::encrypt('op=module&module=user&view=profile&url='.LIVESITE.'&lang=' . $_SESSION['languages']->GetLang() . ''); ?>"><?php echo $_SESSION['languages']->GetString('REGISTER_TITLE'); ?>
+                            <a></li>
+
+
+                <?php } ?>
+            </ul>
+               </div>
